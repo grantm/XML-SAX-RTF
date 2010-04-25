@@ -1,5 +1,3 @@
-# $Id: RTF.pm,v 1.1.1.1 2002/08/27 19:08:15 eray Exp $
-
 package XML::SAX::RTF;
 require 5.005_62;
 use strict;  
@@ -8,7 +6,7 @@ use vars qw( $VERSION @ISA @EXPORT @EXPORT_OK );
 require Exporter;
 @ISA = qw( Exporter XML::SAX::Base );
 @EXPORT = qw( Version );
-$VERSION = '0.1';
+$VERSION = '0.2';
 sub Version { $VERSION; }
 our %features = 
     (
@@ -594,6 +592,12 @@ of RTF, i.e. a set of paragraph types with text and inline tags inside.
 =head1 AUTHOR
 
 Erik Ray (eray@oreilly.com)
+
+=head1 MAINTAINER NEEDED
+
+The original author seems to have abandoned this module.  If you find the
+module useful, please consider adopting it.  Contact grantm@cpan.org for
+co-maintainer access.
 
 =head1 COPYRIGHT
 
